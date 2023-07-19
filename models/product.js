@@ -19,9 +19,9 @@ const productSchema = new mongoose.Schema({
         default: Date.now()
     } ,
     status: {
-        type: Boolean,
-        default: false,
-    } 0,
+        type: Number,
+       // default: false,
+    } ,
     img: {
         type:String,
 
